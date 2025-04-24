@@ -2,19 +2,26 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
 
 html, body {
     height: 100%;
     display: flex;
     flex-direction: column;
+    background-color: #997fa2;
+
 }
 
 header {
-    background-color: #4a90e2;
-    color: white;
+    background-color: #4f0e88;
+    color: rgb(0, 255, 0);
     padding: 20px;
     text-align: center;
+}
+h1:hover {
+    transform:rotate(360deg);
+    transition: transform 1.5s;
 }
 
 nav {
@@ -24,18 +31,45 @@ nav {
 }
 
 main {
-    background-color: #f5a623;
     padding: 40px 20px;
     flex: 1;
+    align-self: center;
 }
 
 .formulario{
     display: flex;
     flex-direction: column;
+    border: 2px solid rgb(0, 255, 0);
+    max-width: max-content;
     align-items: center;
 }
+
+.formulario a{
+    text-decoration: none;
+    color: black;
+    margin-top: 10px;
+}
+.formulario a:hover{
+    color: #f90000;
+    transition: 0.5s;
+    text-decoration: underline;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+input, textarea {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 5px 0;
+    width: 100%;
+}
+
 button {
-    background-color: #4a90e2;
+    background-color: #4f0e88;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -43,9 +77,23 @@ button {
     margin-top: 10px;
 }
 
+button:active {
+    background-color: #792dc6;
+}
+
 footer {
-    background-color: #9013fe;
-    color: white;
+    background-color: #4f0e88;
     text-align: center;
     padding: 15px;
+    font-size: 30px;
+}
+
+footer a {
+    margin: 0;
+    color: rgb(0, 255, 0);
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+    transition: 0.5s;
 }
