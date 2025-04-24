@@ -41,6 +41,7 @@ nav a:hover {
 }
 
 .main {
+    margin: 0px 10px 0px 10px;
     display: flex;
     flex-wrap: wrap;
     flex: 1;
@@ -51,9 +52,7 @@ section {
     margin-top: 20px;
     flex: 1;
     min-height: max-content;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
+    padding: 10px;
     min-width: 300px;
 }
 
@@ -66,6 +65,7 @@ section {
 }
 
 .section1 {
+    border: #ffffff 2px solid;
     align-self: center;
     max-width: 800px;
     background-color: #2f0b60;
@@ -85,6 +85,12 @@ section {
     margin: 0 1rem;
     text-align: justify;
 }
+
+.section2 {
+    border: #ffffff 2px solid;
+    background-color: #2f0b60;
+}
+
 .section2 h2{
     text-align: center;
     margin-bottom: 1rem;
@@ -112,16 +118,44 @@ img {
     height: auto;
 }
 
-.section2 {
+.section3 {
+    border: #ffffff 2px solid;
     background-color: #2f0b60;
 }
 
-.section3 {
-    background-color: #2f0b60;
+.section3 h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.referen {
+    display: flex;
+    gap: 2rem;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+  
+.referen p, 
+.referen ul {
+    max-width: 500px;
+    color: #ffffff;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+  
+.referen ul {
+    margin-top: 1rem;
+    padding-left: 1.2rem;
+}
+  
+.referen img {
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
 }
 
 .footer {
-    
     background-color: #2f0b60;
     text-align: center;
     padding: 1rem;
