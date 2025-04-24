@@ -34,6 +34,7 @@ nav a {
 }
 
 nav a:hover {
+    transition: 0.5s;
     color: #ffffff;
     text-transform: uppercase;
     text-decoration: underline;
@@ -50,14 +51,39 @@ section {
     margin-top: 20px;
     flex: 1;
     min-height: max-content;
-    padding: 2rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
     min-width: 300px;
+}
+
+.contenedor-1y2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
 }
 
 .section1 {
     align-self: center;
     max-width: 800px;
     background-color: #2f0b60;
+}
+.section1 h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.contenido {
+    display: flex;
+    flex-direction: row;
+    padding-right: 10px;
+}
+
+.contenido p {
+    margin: 0 1rem;
+    text-align: justify;
 }
 .section2 h2{
     text-align: center;
