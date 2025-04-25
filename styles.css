@@ -7,8 +7,8 @@
 
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #6927c0;
+    line-height: 1.8;
+    background-color: #5a189a;
     color: rgb(0, 255, 30);
 }
 
@@ -54,6 +54,9 @@ section {
     min-height: max-content;
     padding: 10px;
     min-width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    background-color: #3c096c;
 }
 
 .contenedor-1y2 {
@@ -68,7 +71,6 @@ section {
     border: #ffffff 2px solid;
     align-self: center;
     max-width: 800px;
-    background-color: #2f0b60;
 }
 .section1 h2 {
     text-align: center;
@@ -88,7 +90,6 @@ section {
 
 .section2 {
     border: #ffffff 2px solid;
-    background-color: #2f0b60;
 }
 
 .section2 h2{
@@ -120,7 +121,6 @@ img {
 
 .section3 {
     border: #ffffff 2px solid;
-    background-color: #4f0e88;
     max-width: 1000px;
     margin: 0 auto;
     padding: 1.5rem;
