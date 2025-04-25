@@ -49,7 +49,7 @@ nav a:hover {
 }
 
 section {
-    margin-top: 20px;
+    margin: 20px auto;
     flex: 1;
     min-height: max-content;
     padding: 10px;
@@ -120,7 +120,10 @@ img {
 
 .section3 {
     border: #ffffff 2px solid;
-    background-color: #2f0b60;
+    background-color: #4f0e88;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 1.5rem;
 }
 
 .section3 h2 {
@@ -134,7 +137,7 @@ img {
     flex-wrap: wrap;
 }
   
-.referen p, 
+.referen p,
 .referen ul {
     max-width: 500px;
     color: #ffffff;
