@@ -7,14 +7,13 @@
 
 html, body {
     height: 100%;
-    display: flex;
-    flex-direction: column;
+    margin: 0;
     background-color: #997fa2;
-
+    font-family: Arial, sans-serif;
 }
 
 header {
-    background-color: #4f0e88;
+    background-color: #2f0b60;
     color: rgb(0, 255, 0);
     padding: 20px;
     text-align: center;
@@ -33,15 +32,22 @@ nav {
 main {
     padding: 40px 20px;
     flex: 1;
-    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.formulario{
+.formulario {
     display: flex;
     flex-direction: column;
     border: 2px solid rgb(0, 255, 0);
-    max-width: max-content;
-    align-items: center;
+    background-color: rgb(159, 229, 159);
+    max-width: 500px;
+    width: 100%;
+    padding: 20px;
+    align-items: stretch;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
 
 .formulario a{
@@ -62,19 +68,28 @@ form {
 }
 
 input, textarea {
-    border: 1px solid #ccc;
+    border: 2px solid rgb(0, 255, 0);
+    border-radius: 5px;
     padding: 10px;
     margin: 5px 0;
     width: 100%;
 }
 
+
+
+textarea {
+    resize: none;
+    height: 100px;
+}
+
 button {
-    background-color: #4f0e88;
+    background-color: #2f0b60;
     color: white;
     border: none;
     padding: 10px 20px;
     cursor: pointer;
     margin-top: 10px;
+    border-radius: 20px;
 }
 
 button:active {
@@ -82,10 +97,11 @@ button:active {
 }
 
 footer {
-    background-color: #4f0e88;
+    background-color: #2f0b60;
     text-align: center;
-    padding: 15px;
-    font-size: 30px;
+    padding: 20px;
+    font-size: 20px;
+    margin-top: 40px;
 }
 
 footer a {
