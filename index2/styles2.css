@@ -99,6 +99,7 @@ button {
 
 button:hover {
     transform: scale(1.05);
+    text-transform: uppercase;
 }
 
 button:active {
